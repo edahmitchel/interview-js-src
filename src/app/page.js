@@ -10,21 +10,8 @@ import Image from "next/image";
 export default function Home() {
   const [userData, setUserData] = useState({ email: "", password: "" });
   const handleLogin = async () => {
-    var requestOptions = {
-      method: "POST",
-      // headers: myHeaders,
-      body: userData,
-      redirect: "follow",
-    };
-
-    fetch("http://localhost:4000/api/login", requestOptions)
-      .then((response) => response.json())
-      .then((result) => console.log(result))
-      .catch((error) => console.log("error", error));
-    // const res = await axios.post("http://localhost:6000/api/login", {
-    //   userData,
-    // });
-    // console.log(res);
+    const res = await axios.post("http://localhost:4000/api/login", userData);
+    console.log(res);
   };
   return (
     <>

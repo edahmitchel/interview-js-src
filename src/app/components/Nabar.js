@@ -6,12 +6,14 @@ export default function Navbar() {
   return (
     <div>
       <nav className="navbar">
-        <div className="logo">Logo</div>
+        <div className="logo">
+          naira<span>refill</span>
+        </div>
         <div className="navbar_social_links">
-          <Link href={"#"} className="social_links">
+          <Link href={"#"} className="social_links register">
             Register
           </Link>
-          <Link href={"#"} className="social_links">
+          <Link href={"#"} className="social_links login">
             Login
           </Link>
         </div>

@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px 50px;
+  width: 100%;
+}
+.logo {
+  font-size: 34px;
+  text-transform: uppercase;
+}
+.social_links {
+  margin: 0px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 9px 20px;
+}

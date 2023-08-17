@@ -20,11 +20,12 @@ export default function Home() {
         <div className="form_container">
           <div className="login_form">
             <h1>We've Missed You</h1>
-            <p>
+            <p className="login_text">
               Kindly signin and get first access to the very best, community and
               unlock more opportunities
             </p>
-            <label>email</label>
+            <br /> <br />
+            <label>Email</label>
             <br />
             <input
               type="email"
@@ -34,7 +35,7 @@ export default function Home() {
               }
             />
             <br />
-            <label>password</label>
+            <label>Password</label>
             <br />
             <input
               type="password"
